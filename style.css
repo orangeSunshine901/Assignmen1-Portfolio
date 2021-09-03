@@ -1,0 +1,113 @@
+/** Color Variables **/
+:root {
+    --bg-color: #EF798A;
+    --my-primary: #F4FAFF;
+    --my-secondary: #222E50;
+  }
+*{font-family: Georgia, 'Times New Roman', Times, serif;}
+body{
+    background-color: var(--bg-color);
+}
+.my-secondary{
+    background-color: var(--my-secondary);
+}
+.nav-link{
+    color: var(--my-primary);
+}
+
+.hero{
+    height: 100vh;
+    margin: auto;
+}
+
+.hero-sub{
+    height: 100vh;
+    margin: auto;
+    padding-top: 13%;
+}
+.pp{
+    position: relative;
+    top: 1em;
+}
+.hero-text{
+    color: var(--my-primary);
+}
+.hero-text h1{
+    font-size: 1000%;
+    color: var(--my-primary);
+}
+.top-sub{
+    font-size: 1000%;
+    color: var(--my-primary);
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-outline-info{
+    color: var(--my-secondary);
+    border-color: var(--my-secondary);
+}
+
+#webApp{
+    height: 100vh;
+    background-color: var(--my-primary);
+}
+
+#webApp p{
+    font-size: 700%;
+    color: var(--my-secondary);
+    text-align: center;
+    padding-top: 0.2em;
+}
+
+#uXd{
+    height: 100vh;
+    background-color: var(--my-primary);
+}
+
+#uXd p{
+    font-size: 700%;
+    color: var(--bg-color);
+    text-align: center;
+    padding-top: 0.2em;
+}
+
+#custom-cards{
+    background-color: var(--my-secondary);
+}
+
+#custom-cards2{
+    background-color: var(--bg-color);
+}
+
+.project-text{
+    color: var(--bg-color);
+    background-color: var(--my-primary);
+}
+
+.project-text2{
+    color: var(--my-secondary);
+    background-color: var(--my-primary);
+}
+#contact{
+    height: 100vh;
+    background-color: var(--my-primary);
+}
+
+#contact p{
+    font-size: 700%;
+    color: var(--my-secondary);
+    text-align: center;
+    padding-top: 0.5em;
+}
+.contactMe{
+    display: block;
+    margin-top: 8%;
+}
+
+.contactMe button{
+    font-size: xx-large;
+    
+}
+
+
