@@ -34,6 +34,7 @@ body{
     position: relative;
     top: 1em;
 }
+
 .hero-text{
     color: var(--my-primary);
 }
@@ -86,12 +87,12 @@ body{
 }
 
 .project-text{
-    color: white;
+    color: var(--my-primary);
     background-color: var(--my-primary);
 }
 
 .project-text2{
-    color: white;
+    color: var(--my-primary);
     background-color: var(--my-primary);
 }
 #contact{
@@ -121,7 +122,7 @@ a{
 }
 
 a:link, a:visited {
-    color: white;
+    color: var(--my-primary);
     text-decoration: none;
   }
   
@@ -177,3 +178,82 @@ body::-webkit-scrollbar {
 
 
 
+@media screen and (max-width: 600px) and (min-width: 300px){
+    .hero{
+        height: 100vh;
+        width: auto;
+        margin: 0px;
+    }
+    .pp{
+        padding: 40px 0px 0px 0px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .hero-text h1{
+        margin: 0px;
+        font-size: 6.8rem;
+        color: var(--my-primary);
+    }
+
+    .hero-sub{
+        height: 50vh;
+    }
+    .top-sub{
+        font-size: 5rem;
+        color: var(--my-primary);
+        text-align: center;
+        margin: auto;
+    }
+    .hero-sub-button{
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .hero-sub-button button{
+        width: 100%;
+    }
+
+    .webapp-heading{
+        font-size: 3.5rem;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .custom-cards-mobile{
+       height: 100%;
+       width: 100%;
+       background-color:#222E50;
+    }
+    .card-section-mobile{
+        padding: 10px;
+    }
+
+    .uXd-mobile{
+        margin-top: 150px;
+    }
+
+    .uXd-heading{
+        font-size: 3.5rem;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .contact-heading{
+        font-size: 3.5rem;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    #contact{
+        height: 30vh;
+        padding-top: 30px;
+    }
+    .contact-logo-section{
+        margin: 0 0 0 45px;
+        padding: 0px 0px 0px 0px;
+    }
+    .contact-logo-mobile{
+        width: 80px;
+        height: 80px;
+    }    
+}

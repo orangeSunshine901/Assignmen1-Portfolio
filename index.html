@@ -10,6 +10,7 @@ https://inspiring-benz-be42c8.netlify.app-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </head>
     <body>
         <!--NavBar
@@ -32,33 +33,33 @@ https://inspiring-benz-be42c8.netlify.app-->
             <div>
               <img class="pp"src="./Untitled-1.png" alt="" height="400">
             </div>
-              <div class="hero-text">
-                <h1 class="display-5 fw-bold">Hello!</h1>
-              </div>
+            <div class="hero-text">
+              <h1 class="display-5 fw-bold">Hello!</h1>
             </div>
+          </div>
             <!--Subhero-->
-            <div class="col-lg-6 hero-sub">
-              <p class="top-sub fw-bold">Projects!</p>
-              <!--Buttons-->
-              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                  <a href="#webApp">
-                      <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Web Applications</button>
-                  </a>
-                  <a href="#uXd">
-                      <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Design Projects</button>
-                  </a>
-              </div>
+          <div class="col-lg-6 hero-sub">
+            <p class="top-sub fw-bold">Projects!</p>
+            <!--Buttons-->
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center hero-sub-button">
+                <a href="#webApp">
+                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Web Applications</button>
+                </a>
+                <a href="#uXd">
+                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Design Projects</button>
+                </a>
             </div>
+          </div>
         </section>
         <!--Projects-->
         <section id="myProjects">
           <!--WebApp-->
           <section id="webApp">
-            <p class="fw-bold">Web Applications!</p>
+            <h2 class="fw-bold webapp-heading">Web Applications!</h2>
             <!--Cards-->
             <!--1st card-->
-            <div class="container px-4 py-5" id="custom-cards">
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="container px-4 py-5 custom-cards-mobile" id="custom-cards">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 card-section-mobile">
                   <div class="col">
                     <div class="card card-cover h-100 overflow-hidden project-text rounded-5 shadow-lg">
                       <a href="https://www.auragemsandjewels.com" target="_blank">
@@ -132,8 +133,8 @@ https://inspiring-benz-be42c8.netlify.app-->
             </div>
           </section>
             <!--UxD-->
-            <section id="uXd">
-                <p class="fw-bold">Design Projects!</p>
+            <section id="uXd" class="uXd-mobile">
+                <h2 class="fw-bold uXd-heading">Design Projects!</h2>
                 <!--Cards-->
                 <!--1st card-->
                 <div class="container px-5 py-5" id="custom-cards2">
@@ -211,15 +212,15 @@ https://inspiring-benz-be42c8.netlify.app-->
         </section>
         <!--ContactDetails-->
         <section id="contact">
-          <p class="fw-bold">Contact Me!</p>
+          <h2 class="fw-bold contact-heading">Contact Me!</h2>
           <div class="contactMe">
             <!--Buttons-->
-            <div class="d-flex align-items-center justify-content-xxl-center gap-5">
+            <div class="d-flex align-items-center justify-content-xxl-center gap-5 contact-logo-section">
               <a href="https://github.com/orangeSunshine901" target="__blank">
-              <button type="button" class="btn btn-lg px-4 me-sm-3 fw-bold"><img class="contactLogo" src="./Asset 1.svg" height="150" width="150" alt=""></button>
+              <button type="button" class="btn btn-lg px-4 me-sm-3 fw-bold"><img class="contactLogo contact-logo-mobile" src="./Asset 1.svg" height="150" width="150" alt=""></button>
               </a>
               <a href="https://www.linkedin.com/in/abdul-latif-usman-320138116/" target="__blank">
-              <button type="button" class="btn btn-lg px-4 me-sm-3 fw-bold"><img src="./linkedin-3.svg" alt="" height="150" width="150"></button>
+              <button type="button" class="btn btn-lg px-4 me-sm-3 fw-bold"><img class="contact-logo-mobile" src="./linkedin-3.svg" alt="" height="150" width="150"></button>
               </a>
           </div>
           </div>
