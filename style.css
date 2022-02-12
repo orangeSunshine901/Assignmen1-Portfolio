@@ -66,6 +66,13 @@ body{
     padding-top: 0.2em;
 }
 
+.webapp-heading{
+    font-size: 90px;
+    color:#222E50;
+    text-align: center;
+    padding: 50px 0;
+}
+
 #uXd{
     height: 100vh;
     background-color: var(--my-primary);
@@ -76,6 +83,13 @@ body{
     color: var(--bg-color);
     text-align: center;
     padding-top: 0.2em;
+}
+
+.uXd-heading{
+    font-size: 90px;
+    color:#222E50;
+    text-align: center;
+    padding: 50px 0;
 }
 
 #custom-cards{
@@ -100,7 +114,13 @@ body{
     background-color: var(--my-primary);
 }
 
-#contact p{
+.contact-heading{
+    font-size: 90px;
+    color:#222E50;
+    text-align: center;
+}
+
+.contact-heading{
     font-size: 700%;
     color: var(--my-secondary);
     text-align: center;
@@ -112,9 +132,9 @@ body{
 }
 
 .contactMe button{
-    font-size: xx-large;
-    
+    font-size: xx-large;   
 }
+
 
 a{
     text-decoration: none;
@@ -214,31 +234,31 @@ body::-webkit-scrollbar {
         width: 100%;
     }
 
-    .webapp-heading{
+    .webapp-heading-mobile{
         font-size: 3.5rem;
         text-align: center;
-        margin: 20px auto;
+        padding: 50px 0px;
     }
     .custom-cards-mobile{
-       height: 100%;
-       width: 100%;
+       margin-top: -55px;
        background-color:#222E50;
     }
     .card-section-mobile{
         padding: 10px;
+        margin-bottom: 20px;
     }
 
     .uXd-mobile{
-        margin-top: 150px;
+        margin-top: 170px;
     }
 
-    .uXd-heading{
+    .uXd-heading-mobile{
         font-size: 3.5rem;
         text-align: center;
-        margin: 20px auto;
+        margin: -40px auto;
     }
 
-    .contact-heading{
+    .contact-heading-mobile{
         font-size: 3.5rem;
         text-align: center;
         margin: 20px 0px;
